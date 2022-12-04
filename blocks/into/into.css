@@ -1,0 +1,27 @@
+.into {
+  display: flex;
+  flex-direction: column;
+  max-width: 984px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .into {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .into {
+    max-width: 768px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .into {
+    max-width: 320px;
+    margin-left: 16px;
+  }
+}

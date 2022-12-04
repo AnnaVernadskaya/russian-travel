@@ -1,0 +1,10 @@
+.footer__list-link {
+  display: inline;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__list-link {
+    display: block;
+    margin-bottom: 32px;
+  }
+}

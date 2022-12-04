@@ -1,0 +1,22 @@
+.into__text {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  margin-bottom: 33px;
+  max-width: 690px;
+}
+
+@media screen and (max-width: 768px) {
+  .into__text {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .into__text {
+    margin-bottom: 34px;
+    max-width: 288px;
+  }
+}
