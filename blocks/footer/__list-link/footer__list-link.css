@@ -1,10 +1,12 @@
 .footer__list-link {
-  display: inline;
+  padding-right: 18px;
 }
-
-@media screen and (max-width: 425px) {
+.footer__list-link:last-of-type {
+  padding-right: 0;
+}
+@media screen and (max-width: 700px) {
   .footer__list-link {
-    display: block;
+    padding: 0;
     margin-bottom: 32px;
   }
 }

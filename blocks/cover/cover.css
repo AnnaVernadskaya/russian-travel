@@ -1,15 +1,8 @@
 .cover {
-  background-image: url(../../images/background.jpg);
   min-height: 740px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  display: flex;
-  justify-content: center;
   max-width: 1184px;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
   color: white;
 }
 
@@ -17,7 +10,6 @@
   .cover {
     min-height: 640px;
     max-width: 1024px;
-    width: 100%;
   }
 }
 
@@ -33,19 +25,4 @@
     min-height: 200px;
     max-width: 320px;
   }
-}
-
-.cover::before {
-  content: "";
-  display: block;
-  height: 100%;
-  position: absolute;
-
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 0.3;
-}
-
-.cover:hover::before {
-  opacity: 1;
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
@@ -17,7 +17,7 @@
           alt="Логотип Россия"
         >
         <div class="header__lang-links">
-          <a href="#" class="header__lang-link" lang="en">Ru</a>
+          <a href="#" class="header__lang-link link-active" lang="en">Ru</a>
           <a href="#" class="header__lang-link" lang="en">En</a>
         </div>
       </header>
@@ -79,66 +79,92 @@
         </section>
         <!--СЕКЦИЯ photo-grid-->
         <section class="photo-grid">
-          <img
-            class="photo-grid__item"
-            src="./images/grid-gallery/__item1.jpg"
-            alt="фото вид из окна поезда"
-          >
-          <img
-            class="photo-grid__item"
-            src="./images/grid-gallery/__item2.jpg"
-            alt="фото горы и облака"
-          >
-          <img
-            class="photo-grid__item"
-            src="./images/grid-gallery/__item3.jpg"
-            alt="фото волк на стоге сена"
-          >
-          <img
-            class="photo-grid__item"
-            src="./images/grid-gallery/__item4.jpg"
-            alt="фото лес"
-          >
-          <img
-            class="photo-grid__item"
-            src="./images/grid-gallery/__item5.jpg"
-            alt="фото колесо машины на льду"
-          >
-          <img
-            class="photo-grid__item"
-            src="./images/grid-gallery/__item6.jpg"
-            alt="фото пляж"
-          >
-          <img
-            class="photo-grid__item"
-            src="./images/grid-gallery/__item7.jpg"
-            alt="фото горы"
-          >
-          <img
-            class="photo-grid__item"
-            src="./images/grid-gallery/__item8.jpg"
-            alt="фото дородный знак"
-          >
-          <img
-            class="photo-grid__item"
-            src="./images/grid-gallery/__item9.jpg"
-            alt="фото горы"
-          >
-          <img
-            class="photo-grid__item"
-            src="./images/grid-gallery/__item10.jpg"
-            alt="фото горы"
-          >
-          <img
-            class="photo-grid__item"
-            src="./images/grid-gallery/__item11.jpg"
-            alt="фото горы"
-          >
-          <img
-            class="photo-grid__item"
-            src="./images/grid-gallery/__item12.jpg"
-            alt="фото горы"
-          >
+          <ul class="photo-grid__list">
+            <li class="photo-grid__item">
+              <img
+                class="photo-gid__img"
+                src="./images/grid-gallery/__item1.jpg"
+                alt="фото вид из окна поезда"
+              >
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-gid__img"
+                src="./images/grid-gallery/__item2.jpg"
+                alt="фото горы и облака"
+              >
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-gid__img"
+                src="./images/grid-gallery/__item3.jpg"
+                alt="фото волк на стоге сена"
+              >
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-gid__img"
+                src="./images/grid-gallery/__item4.jpg"
+                alt="фото лес"
+              >
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-gid__img"
+                src="./images/grid-gallery/__item5.jpg"
+                alt="фото колесо машины на льду"
+              >
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-gid__img"
+                src="./images/grid-gallery/__item6.jpg"
+                alt="фото пляж"
+              >
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-gid__img"
+                src="./images/grid-gallery/__item7.jpg"
+                alt="фото горы"
+              >
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-gid__img"
+                src="./images/grid-gallery/__item8.jpg"
+                alt="фото дородный знак"
+              >
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-gid__img"
+                src="./images/grid-gallery/__item9.jpg"
+                alt="фото горы"
+              >
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-gid__img"
+                src="./images/grid-gallery/__item10.jpg"
+                alt="фото горы"
+              >
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-gid__img"
+                src="./images/grid-gallery/__item11.jpg"
+                alt="фото горы"
+              >
+            </li>
+            <li class="photo-grid__item">
+              <img
+                class="photo-gid__img"
+                src="./images/grid-gallery/__item12.jpg"
+                alt="фото горы"
+              >
+            </li>
+          </ul>
         </section>
         <!--СЕКЦИЯ places-->
         <section class="places">
@@ -314,7 +340,7 @@
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
             target="_blank"
           >
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
+            <h2 class="cover__title">До&nbsp;Байкала «на&nbsp;собаках»</h2>
             <p class="cover__subtitle">
               По мотивам учебной темы о Транссибе — путешествие от столицы до
               Байкала на электричках.
@@ -368,7 +394,9 @@
             </li>
           </ul>
         </nav>
-        <p class="footer__copyright">&copy; 2022. Анна Вернадская</p>
+        <p class="footer__copyright">
+          &copy;&nbsp;2022.&nbsp;Анна&nbsp;Вернадская
+        </p>
       </footer>
     </div>
   </body>
