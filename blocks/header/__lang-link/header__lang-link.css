@@ -4,7 +4,6 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  padding-left: 18px;
   text-decoration: none;
   color: white;
 }
@@ -18,9 +17,4 @@
 
 .header__lang-link:last-of-type:hover {
   opacity: 0.8;
-}
-
-.header__lang-link:active {
-  text-decoration: underline;
-  color: white;
 }

@@ -1,0 +1,7 @@
+.header__list-item-link {
+  padding-left: 18px;
+}
+
+.header__list-item-link:first-child {
+  padding-left: 0;
+}
