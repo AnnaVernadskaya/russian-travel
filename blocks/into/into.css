@@ -12,9 +12,19 @@
   }
 }
 
+@media screen and (max-width: 950px) {
+  .into {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .into {
+    max-width: 750px;
+  }
+}
 @media screen and (max-width: 768px) {
   .into {
-    max-width: 768px;
     margin-left: 24px;
   }
 }

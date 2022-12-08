@@ -18,5 +18,6 @@
   .into__text {
     margin-bottom: 34px;
     max-width: 288px;
+    max-height: 520px;
   }
 }
